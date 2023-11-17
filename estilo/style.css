@@ -1,69 +1,63 @@
 @charset "Utf-8";
 
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body{
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
 }
 
-body{
-    background: white url(../imagens/fundo-madeira.jpg) top center no-repeat fixed;
-    background-size: cover;
-    overflow: hidden;
+body {
+  background: white url(../imagens/fundo-madeira.jpg) top center no-repeat fixed;
+  background-size: cover;
+  overflow: hidden;
 }
 
-main{
-    height: 100vh;
-    position: relative;
-    
+main {
+  height: 100vh;
+  position: relative;
 }
 
-section#telefone{
-    height: 627px;
-    width: 311px;
+section#telefone {
+  height: 627px;
+  width: 311px;
 
-    background: url(../imagens/frame-iphone.png) no-repeat fixed;
-    
+  background: url(../imagens/frame-iphone.png) no-repeat fixed;
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-iframe#tela{
-    position: relative;
-    top: 80px;
-    left: 22px;
-    width: 267px;
-    height: 472px;
-
-    
+iframe#tela {
+  position: relative;
+  top: 80px;
+  left: 22px;
+  width: 267px;
+  height: 472px;
 }
-section#social{
-    text-align: right;
+section#social {
+  text-align: right;
 }
 
-section#social img{
-    
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
-    margin: 10px;
-    height: 50px;
-    width: 50px;
-    box-sizing: border-box;
+section#social img {
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  box-sizing: border-box;
 }
 
-section#social img:hover{
-    
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596);
-    transition: transform 0.3s;
+section#social img:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596);
+  transition: transform 0.3s;
 }
-
