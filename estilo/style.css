@@ -15,6 +15,7 @@ html, body{
 body{
     background: white url(../imagens/fundo-madeira.jpg) top center no-repeat fixed;
     background-size: cover;
+    overflow: hidden;
 }
 
 main{
@@ -42,6 +43,7 @@ iframe#tela{
     left: 22px;
     width: 267px;
     height: 472px;
+
     
 }
 section#social{
@@ -64,3 +66,4 @@ section#social img:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596);
     transition: transform 0.3s;
 }
+
