@@ -42,4 +42,25 @@ iframe#tela{
     left: 22px;
     width: 267px;
     height: 472px;
+    
+}
+section#social{
+    text-align: right;
+}
+
+section#social img{
+    
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+}
+
+section#social img:hover{
+    
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596);
+    transition: transform 0.3s;
 }
